@@ -1,0 +1,6 @@
+vl2smv requires explicitly writing out the sensitivity list instead of *
+vl2smv always interprets '<=' as assignment, use =< instead
+vl2smv requires separate declaring the input/output and data types
+No functions
+SMV can only handle always blocks wich assignments to a single variable
+All unused cases output 0
